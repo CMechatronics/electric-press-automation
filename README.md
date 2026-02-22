@@ -32,7 +32,7 @@ The system integrates mechanical transmission, electrical power circuits, PLC co
 | Press Rated Speed | 1480 rpm |
 | Gear Reduction Ratio | 3:1 |
 | Output Torque (Press Shaft) | 717 Nm |
-| Compression Force (per cycle) | 980 N |
+| Target Compression Load (per cycle) | 100 kgf (≈ 980 N) |
 | Conveyor Motor Power | 0.37 kW |
 | Actuator Motor Power | 4 kW |
 | Power Factor Target | cos φ = 0.95 (per line) |
@@ -46,12 +46,12 @@ The system integrates mechanical transmission, electrical power circuits, PLC co
 
 The automated production line includes:
 
-- Can dispensing gate
-- Weighing system
-- Conveyor belts
-- Electric press with pressure feedback
-- Cube displacement mechanism
-- Centralized protection and control panel
+- Can dispensing gate  
+- Weighing system  
+- Conveyor belts  
+- Electric press with pressure feedback  
+- Cube displacement mechanism  
+- Centralized protection and control panel  
 
 The press operates in three compression cycles to produce 100 kg aluminum cubes.
 
@@ -61,25 +61,25 @@ The press operates in three compression cycles to produce 100 kg aluminum cubes.
 
 ### Mechanical Engineering
 
-- Motor replacement and torque adaptation through gearbox selection
-- Output torque verification (717 Nm)
-- Mechanical transmission ratio calculation (3:1)
-- Load and shaft analysis
+- Motor replacement and torque adaptation through gearbox selection  
+- Output torque verification (717 Nm)  
+- Mechanical transmission ratio calculation (3:1)  
+- Load and shaft analysis  
 
 ### Electrical Engineering
 
-- Cable section calculation (ITC-BT-19)
-- Protection device selection (MCB, RCD, thermal relays)
-- Peak current analysis
-- Capacitor bank sizing for power factor correction (cos φ = 0.95)
+- Cable section calculation (ITC-BT-19)  
+- Protection device selection (MCB, RCD, thermal relays)  
+- Peak current analysis  
+- Capacitor bank sizing for power factor correction (cos φ = 0.95)  
 
 ### Control System
 
-- PLC-based automation (FBD logic)
-- Pressure-based stroke limitation
-- Timed motor start sequence
-- Controlled activation of thermal relay and capacitor bank
-- Multi-cycle compression control
+- PLC-based automation (FBD logic)  
+- Pressure-based stroke limitation  
+- Timed motor start sequence  
+- Controlled activation of thermal relay and capacitor bank  
+- Multi-cycle compression control  
 
 ---
 
@@ -96,17 +96,17 @@ The press operates in three compression cycles to produce 100 kg aluminum cubes.
 
 ## Tools Used
 
-- SolidWorks Electrical
-- PLC programming (FBD)
-- Industrial motor sizing methodology
-- Low voltage electrical regulation (REBT)
+- SolidWorks Electrical  
+- PLC programming (FBD)  
+- Industrial motor sizing methodology  
+- Low voltage electrical regulation (REBT)  
 
 ---
 
 ## Engineering Scope
 
-- Industrial automation
-- Electrical installation redesign
-- Power factor correction
-- Mechanical transmission design
-- Risk assessment and safety planning
+- Industrial automation  
+- Electrical installation redesign  
+- Power factor correction  
+- Mechanical transmission design  
+- Risk assessment and safety planning  
