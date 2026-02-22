@@ -21,6 +21,23 @@ The system integrates mechanical transmission, electrical power circuits, PLC co
 
 ---
 
+## Key Technical Specifications
+
+| Parameter | Value |
+|------------|--------|
+| System Type | Industrial Electric Press |
+| Production Configuration | Multi-line automated system |
+| Supply Voltage | 400 V – Three-phase |
+| Press Motor Power | 37 kW |
+| Conveyor Motor Power | 0.37 kW |
+| Actuator Motor Power | 4 kW |
+| Power Factor Target | cos φ = 0.95 (per line) |
+| Control System | PLC (FBD Logic) |
+| Compression Cycles | 3 per production cycle |
+| Final Product | 100 kg aluminum cube |
+
+---
+
 ## System Description
 
 The automated production line includes:
