@@ -29,6 +29,10 @@ The system integrates mechanical transmission, electrical power circuits, PLC co
 | Production Configuration | Multi-line automated system |
 | Supply Voltage | 400 V – Three-phase |
 | Press Motor Power | 37 kW |
+| Press Rated Speed | 1480 rpm |
+| Gear Reduction Ratio | 3:1 |
+| Output Torque (Press Shaft) | 717 Nm |
+| Compression Force (per cycle) | 980 N |
 | Conveyor Motor Power | 0.37 kW |
 | Actuator Motor Power | 4 kW |
 | Power Factor Target | cos φ = 0.95 (per line) |
@@ -57,10 +61,10 @@ The press operates in three compression cycles to produce 100 kg aluminum cubes.
 
 ### Mechanical Engineering
 
-- Torque and speed recalculation for motor replacement
-- Gear reduction selection for required output torque
-- Mechanical load analysis
-- Transmission verification
+- Motor replacement and torque adaptation through gearbox selection
+- Output torque verification (717 Nm)
+- Mechanical transmission ratio calculation (3:1)
+- Load and shaft analysis
 
 ### Electrical Engineering
 
@@ -94,7 +98,7 @@ The press operates in three compression cycles to produce 100 kg aluminum cubes.
 
 - SolidWorks Electrical
 - PLC programming (FBD)
-- Industrial motor sizing tools
+- Industrial motor sizing methodology
 - Low voltage electrical regulation (REBT)
 
 ---
