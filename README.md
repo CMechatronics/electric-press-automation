@@ -88,8 +88,7 @@ The press operates in three compression cycles to produce 100 kg aluminum cubes.
 - `docs/` → Technical documentation and budget  
 - `analysis/` → Mechanical and electrical calculations  
 - `electrical/` → Schematics and wiring diagrams  
-- `plc/` → Control logic diagrams (FBD)  
-- `cad/` → 3D system model  
+- `plc/` → Control logic diagrams (FBD) 
 - `docs/preliminary/` → Initial design study  
 
 ---
